@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.study.yang.android000_defineviewgroup.MainActivity">
+
+    <com.study.yang.android000_defineviewgroup.view.DefineViewGroup
+       android:id="@+id/dvg_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:clickable="true"
+        app:title="我的设置1"
+        app:isToggle="true"
+        app:position="top"
+        />
+
+    <com.study.yang.android000_defineviewgroup.view.DefineViewGroup
+        android:id="@+id/dvg_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:title="我的设置2"
+        app:isToggle="true"
+        app:position="middle"
+        />
+
+    <com.study.yang.android000_defineviewgroup.view.DefineViewGroup
+        android:id="@+id/dvg_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:title="我的设置3"
+        app:isToggle="true"
+        app:position="bottom"
+        />
+
+    <com.study.yang.android000_defineviewgroup.view.DefineViewGroup
+        android:id="@+id/dvg_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:title="我的设置4"
+        android:layout_marginTop="10dp"
+        app:isToggle="true"
+        app:position="top"
+        />
+
+    <com.study.yang.android000_defineviewgroup.view.DefineViewGroup
+        android:id="@+id/dvg_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:title="我的设置5"
+        app:isToggle="true"
+        app:position="bottom"
+        />
+</LinearLayout>
