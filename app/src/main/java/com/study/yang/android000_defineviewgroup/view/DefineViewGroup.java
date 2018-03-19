@@ -45,6 +45,7 @@ public class DefineViewGroup extends LinearLayout {
         position = ta.getInt(R.styleable.DefineViewGroup_position, 0);
         isToggle = ta.getBoolean(R.styleable.DefineViewGroup_isToggle, false);
         title = ta.getString(R.styleable.DefineViewGroup_title);
+        ta.recycle();
         switch (position) {
             case 0:
                 setBackgroundResource(R.drawable.seting_first_selector);
